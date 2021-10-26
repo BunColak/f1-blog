@@ -2,7 +2,7 @@
 title: "2021 Austin Gp"
 date: 2021-10-26
 tags: ["Austin GP", "2021 Season", "United States"]
-draft: true
+image: cover-austin-2021.jpg
 ---
 
 Another good race behind. 
