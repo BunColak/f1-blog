@@ -1,30 +1,77 @@
-baseUrl = "https://f1.buncolak.com"
+baseURL = "https://f1.buncolak.com"
+title = "F1 Stuff"
+
+disableKinds = ["taxonomy"]
+enableEmoji = true
 enableRobotsTXT = true
-googleAnalytics = ""
-languageCode = "en-us"
-paginate = 10
+hasCJKLanguage = true
+ignoreErrors = ["error-disable-taxonomy"]
 theme = "fuji"
-title = "F1 Thoughts"
-showLicense = false
+
+## Change this two to switch between different language
+defaultContentLanguage = "en" # For HTML page, now support: en, zh-hans, zh-hant, ja, nl, pl, it
+languageCode = "en" # For RSS, view https://www.rssboard.org/rss-language-codes
+
+paginate = 10 
+summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
+
+# googleAnalytics = "UA-000000000-0" # Set your Google Analytics UA here
 
 [params]
-author = "Bün Colak"
-avatar = "/images/me.jpg"
-dateFormat = "Mon, 02 Jan 2006"
-description = ""
-disableSummary = false
-email = "buncolak@gmail.com"
-paginationSinglePost = true
-readMore = true
-style = "auto-without-switcher"
+author = "buncolak" # You can also set author in post front matter individually
+defaultTheme = "auto" # default theme when first visit (auto|dark|light)
+subTitle = "F1 stuff that I randomly write." 
 
-[[params.social]]
-id = "twitter"
-name = "buncolak"
+showReadTime = false
+showWordCounter = true
 
-[[params.social]]
-id = "instagram"
-name = "buncolak"
+# License in the footer
+showLicenseInFooter = false
 
+# License at the end of each post
+showLicense = false
+showToc = true
+
+# Copyright
+copyrightStartYear = "2021"
+
+# Open Graph & Twitter Card variables
+# You can also set description and images in post front matter individually
+description = "F1 thoughts that I randomly write." 
+og = "/images/me.jpg" # This will use the image called og.png in static/img folder
+
+# Bangumi image chart id
+# bgmImageChart = "000000"
+
+# Let images display in full brightness under dark mode
+# disableDarkImage = true
+
+[markup]
+[markup.goldmark]
 [markup.goldmark.renderer]
-unsafe = true
+unsafe = true # Enable user to embed HTML snippets in Markdown content
+[markup.highlight]
+codeFences = false # Disable Hugo's code highlighter
+
+[markup.tableOfContents]
+endLevel = 3
+startLevel = 2
+
+[taxonomies]
+tag = "tags"
+
+[menu]
+[[menu.nav]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.link]]
+[[menu.link]]
+name = "Twitter"
+url = "https://twitter.com/buncolak"
+weight = 1
+[[menu.link]]
+name = "Instagram"
+url = "https://instagram.com/buncolak"
+weight = 2
