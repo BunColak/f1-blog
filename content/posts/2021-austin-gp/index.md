@@ -21,7 +21,7 @@ Another good race behind.
 
 ### Redbull
 
-I definitely think Redbull needs good results in Mexico and Brazil. Quatar and Jeddah is up-to-debate, and Abu Dhabi should favor Mercedes more. If they want to win WDC they might need to sacrifece Perez. But given the next race is Mexico, I don't think that will be an easy call to make. Also the engines should last, which means they might not push too hard if they can get away with it.
+I definitely think Redbull needs good results in Mexico and Brazil. Qatar and Jeddah are up-to-debate, and Abu Dhabi should favor Mercedes more. If they want to win WDC they might need to sacrifice Perez. But given the next race is Mexico, I don't think that will be an easy call to make. Also, the engines should last, which means they might not push too hard if they can get away with it.
 
 ### Mercedes
 
@@ -30,4 +30,3 @@ Mercedes needs to push it hard for the next two races and get the lead again. Th
 ## Ferrari giving hope
 
 Please my heart might not survive another 2014. Please be good next year will you?
-
