@@ -1,0 +1,30 @@
+baseUrl = "https://f1.buncolak.com"
+enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = "en-us"
+paginate = 10
+theme = "fuji"
+title = "F1 Thoughts"
+showLicense = false
+
+[params]
+author = "Bün Colak"
+avatar = "/images/me.jpg"
+dateFormat = "Mon, 02 Jan 2006"
+description = ""
+disableSummary = false
+email = "buncolak@gmail.com"
+paginationSinglePost = true
+readMore = true
+style = "auto-without-switcher"
+
+[[params.social]]
+id = "twitter"
+name = "buncolak"
+
+[[params.social]]
+id = "instagram"
+name = "buncolak"
+
+[markup.goldmark.renderer]
+unsafe = true
