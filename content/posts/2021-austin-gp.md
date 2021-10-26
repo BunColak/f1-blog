@@ -7,6 +7,8 @@ draft: true
 
 Another good race behind. 
 
+ <!--more-->
+ 
 ## Quick five-point-summary about the race
 
 + Holy hell, Max can take the pressure.
