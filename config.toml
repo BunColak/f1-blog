@@ -15,7 +15,7 @@ languageCode = "en" # For RSS, view https://www.rssboard.org/rss-language-codes
 paginate = 10 
 summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
 
-# googleAnalytics = "UA-000000000-0" # Set your Google Analytics UA here
+googleAnalytics = "UA-55438123-3" # Set your Google Analytics UA here
 
 [params]
 author = "buncolak" # You can also set author in post front matter individually
